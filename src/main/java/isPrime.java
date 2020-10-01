@@ -17,7 +17,7 @@ public class isPrime {
         boolean isPrime = true;
         for (int j = 2; j < userInteger; j++) {
             if (userInteger % j == 0) {
-                return false;
+                isPrime = false;
             }     
         }
         return isPrime;
